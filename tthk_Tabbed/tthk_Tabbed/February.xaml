@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="February"
+             x:Class="tthk_Tabbed.February">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Independence Day, anniversary of the Republic of Estonia"
+                   x:Name="pyha1"
+                   FontSize="Large"
+                   Margin="6"
+                   Padding="10"
+                  />
+            <Image Source="present.png"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

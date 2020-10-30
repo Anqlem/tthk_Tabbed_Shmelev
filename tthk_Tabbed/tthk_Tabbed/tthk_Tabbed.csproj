@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="April.xaml.cs">
+      <DependentUpon>April.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="December.xaml.cs">
+      <DependentUpon>December.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="January.xaml.cs">
+      <DependentUpon>January.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="July.xaml.cs">
+      <DependentUpon>July.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="June.xaml.cs">
+      <DependentUpon>June.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="March.xaml.cs">
+      <DependentUpon>March.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="May.xaml.cs">
+      <DependentUpon>May.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="October.xaml.cs">
+      <DependentUpon>October.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Spring.xaml.cs">
+      <DependentUpon>Spring.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Autumn.xaml.cs">
+      <DependentUpon>Autumn.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Summer.xaml.cs">
+      <DependentUpon>Summer.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="February.xaml.cs">
+      <DependentUpon>February.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Winter.xaml.cs">
+      <DependentUpon>Winter.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="April.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="August.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="December.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="January.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="July.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="June.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Spring.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="May.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="March.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="November.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="October.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="September.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Autumn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Summer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Winter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="February.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
