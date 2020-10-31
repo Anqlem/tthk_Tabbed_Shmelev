@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:tthk_Tabbed;assembly=tthk_Tabbed"
             Title="Autumn"
-             x:Class="tthk_Tabbed.Autumn">
+             x:Class="tthk_Tabbed.Autumn" BarBackgroundColor="#FFAA00" >
   <!--Pages can be added as references or inline-->
     <TabbedPage.Children>
         <local:September/>

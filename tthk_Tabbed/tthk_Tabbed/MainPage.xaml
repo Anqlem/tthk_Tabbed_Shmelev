@@ -4,7 +4,7 @@
             xmlns:local="clr-namespace:tthk_Tabbed;assembly=tthk_Tabbed"
              x:Class="tthk_Tabbed.MainPage"
             
-            x:Name="tabz">
+            x:Name="tabz" BarBackgroundColor="#C33636">
 
     <TabbedPage.Children>
         <local:Winter/>

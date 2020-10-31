@@ -23,6 +23,7 @@
                    Margin="6"
                    Padding="10"
                 />
+            <Image Source="cap.png"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
